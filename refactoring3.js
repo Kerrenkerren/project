@@ -109,7 +109,7 @@ personalMovieDB.genres.forEach((item, i) => {
 function writeYourGenres() {
 
     for (let num = 1; num < 2; num++) {
-        let genres = prompt('Введите ваши любимые жанры через запятую');
+        let genres = prompt('Введите ваши любимые жанры через запятую').toLowerCase;;
            if genre === '' || genre == null {
                console.log('Вы ввели некоректные данные или не ввели их вовсе');
                i--;
